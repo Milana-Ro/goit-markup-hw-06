@@ -5,6 +5,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
+/* Reset styles */
+
 h1,
 h2,
 h3,
@@ -14,50 +17,39 @@ h6,
 p {
     margin: 0;
 }
-
 ul, ol {
     margin: 0;
     padding-left: 0;
+        list-style-type: none;
 }
 img {
     display: block;
 }
-
-fieldset {
-    padding: 0;
-    margin: 0;
-    border: none;
+.link {
+    text-decoration: none;
+    color: #2E2F42;
+    display: block;
 }
+
+/* Common styles */
 
 .container {
     width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
     }
-    .navigation, 
-    .contacts, 
-    .list,
-    .icon-list {
-        list-style-type: none;
-    }
-    
-    .link {
-        text-decoration: none;
-        color: #2E2F42;
-        display: block;
-    }
-    .logo {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-    }
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}
     
 /* Header */
 
@@ -489,8 +481,8 @@ margin-bottom: 16px;
 .footer .social-media-link:focus {
     background-color: #31D0AA;
 }
-.footer .icon {
-    fill: #aaaad3;
+.social-media .icon {
+    fill: #F4F4FD;
 }
 .footer .social-media {
     margin-right: auto;
@@ -551,6 +543,7 @@ margin-bottom: 16px;
 
 .subscribe-btn .icon {
     margin-left: 16px;
+    fill: #FFF;
 }
 
 
