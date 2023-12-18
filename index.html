@@ -16,11 +16,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mf-styles.css" />
     <title>Document</title>
   </head>
 
   <body>
+    <!-- HEADER -->
+
     <header class="header">
       <div class="container">
         <nav class="nav-menu">
@@ -53,19 +55,118 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+          <svg class="icon" width="17" height="15">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- BURGER MENU -->
+
+      <div class="burger-menu is-active">
+        <button class="close-btn" type="button">
+          <svg class="icon" height="8" width="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <nav class="mob-nav-menu">
+          <ul class="mob-navigation">
+            <li>
+              <a class="link current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a href="" class="link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mob-contacts">
+          <ul class="list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="list">
+          <li class="icon-item">
+            <a
+              href="https://www.instagram.com/"
+              class="social-media-link"
+              target="_blank"
+              rel="noopener no-referrer"
+              aria-label="Instagram site"
+            >
+              <svg class="icon" height="24" width="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a
+              href="https://www.twitter.com/"
+              class="social-media-link"
+              target="_blank"
+              rel="noopener no-referrer"
+              aria-label="Twitter site"
+            >
+              <svg class="icon" height="24" width="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a
+              href="https://www.facebook.com/"
+              class="social-media-link"
+              target="_blank"
+              rel="noopener no-referrer"
+              aria-label="Facebook site"
+            >
+              <svg class="icon" height="24" width="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a
+              href="https://www.linkedin.com/"
+              class="social-media-link"
+              target="_blank"
+              rel="noopener no-referrer"
+              aria-label="Linkedin site"
+            >
+              <svg class="icon" height="24" width="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
     <main>
+      <!-- HERO SECTION -->
+
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-section-title">
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="hero-btn">Order Service</button>
         </div>
       </section>
+
+      <!-- ABOUT SECTION -->
 
       <section class="about">
         <div class="container">
@@ -126,6 +227,8 @@
           </ul>
         </div>
       </section>
+
+      <!-- TEAM SECTION -->
 
       <section class="team-section">
         <div class="container">
@@ -402,6 +505,8 @@
         </div>
       </section>
 
+      <!-- PORTFOLIO SECTION -->
+
       <section class="portfolio-list">
         <div class="container">
           <h2 class="portfolio-list-title">Our Portfolio</h2>
@@ -530,6 +635,8 @@
       </section>
     </main>
 
+    <!-- FOOTER -->
+
     <footer class="footer">
       <div class="container">
         <div class="logo-box">
@@ -621,6 +728,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- BACKDROP -->
 
     <div class="backdrop">
       <div class="modal">
