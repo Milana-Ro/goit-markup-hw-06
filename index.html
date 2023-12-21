@@ -64,7 +64,7 @@
 
       <!-- BURGER MENU -->
 
-      <div class="burger-menu is-active">
+      <div class="burger-menu">
         <button class="close-btn" type="button">
           <svg class="icon" height="8" width="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -84,72 +84,76 @@
             </li>
           </ul>
         </nav>
-        <address class="mob-contacts">
-          <ul class="list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
+        <div class="contacts-group">
+          <address class="mob-contacts">
+            <ul class="list">
+              <li>
+                <a href="tel:+110001111111" class="link phone"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="link email"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="socials-list">
+            <li class="icon-item">
+              <a
+                href="https://www.instagram.com/"
+                class="social-media-link"
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="Instagram site"
               >
+                <svg class="icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            <li class="icon-item">
+              <a
+                href="https://www.twitter.com/"
+                class="social-media-link"
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="Twitter site"
+              >
+                <svg class="icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a
+                href="https://www.facebook.com/"
+                class="social-media-link"
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="Facebook site"
+              >
+                <svg class="icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a
+                href="https://www.linkedin.com/"
+                class="social-media-link"
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="Linkedin site"
+              >
+                <svg class="icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class="list">
-          <li class="icon-item">
-            <a
-              href="https://www.instagram.com/"
-              class="social-media-link"
-              target="_blank"
-              rel="noopener no-referrer"
-              aria-label="Instagram site"
-            >
-              <svg class="icon" height="24" width="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-item">
-            <a
-              href="https://www.twitter.com/"
-              class="social-media-link"
-              target="_blank"
-              rel="noopener no-referrer"
-              aria-label="Twitter site"
-            >
-              <svg class="icon" height="24" width="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-item">
-            <a
-              href="https://www.facebook.com/"
-              class="social-media-link"
-              target="_blank"
-              rel="noopener no-referrer"
-              aria-label="Facebook site"
-            >
-              <svg class="icon" height="24" width="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="icon-item">
-            <a
-              href="https://www.linkedin.com/"
-              class="social-media-link"
-              target="_blank"
-              rel="noopener no-referrer"
-              aria-label="Linkedin site"
-            >
-              <svg class="icon" height="24" width="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
 
@@ -159,8 +163,7 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-section-title">
-            Effective Solutions <br />
-            for Your Business
+            Effective Solutions for Your Business
           </h1>
           <button type="button" class="hero-btn">Order Service</button>
         </div>
@@ -804,12 +807,14 @@
             />
             <label class="form-label" for="user-privacy">
               <span class="checkbox-icon">
-                <svg class="icon" height="8" width="10">
+                <svg class="icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="privacy-link">Privacy Policy</a>
+              <span class="privacy-text">
+                I accept the terms and conditions of the
+                <a href="" class="privacy-link">Privacy Policy</a></span
+              >
             </label>
           </div>
 

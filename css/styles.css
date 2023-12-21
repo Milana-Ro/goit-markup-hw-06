@@ -413,14 +413,14 @@ color: #2E2F42;
 
 /* Footer */
 
-.footer .container {
-    display: flex;
-    align-items: baseline;
-}
 .footer {
     padding-bottom: 100px;
     padding-top: 100px;
     background-color: #2E2F42;
+}
+.footer .container {
+    display: flex;
+    align-items: baseline;
 }
 .footer .logo {
 display: inline-block;
@@ -815,7 +815,7 @@ background-color: #404bbf;
 .icon-social-mobile {
     fill: #f4f4fd;
 } */
-
+/* 
 .burger-menu {
   background-color: #fff;
   width: 100%;
@@ -838,4 +838,4 @@ background-color: #404bbf;
     .nav-menu {
         flex-direction: column;
     }
-  }
+  } */
