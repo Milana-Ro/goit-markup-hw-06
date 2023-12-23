@@ -94,10 +94,12 @@ header .logo-text {
     width: 24px;
     height: 24px;
     background-color: transparent;
-    /* background-color: teal; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.burger-btn .icon {
+    fill: #2F2F37;
 }
 
 /* Burger menu */
