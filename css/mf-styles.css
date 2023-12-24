@@ -108,6 +108,7 @@ header .logo-text {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 .burger-btn .icon {
     fill: #2F2F37;
